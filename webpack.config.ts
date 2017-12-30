@@ -2,7 +2,7 @@ import * as ExtractTextPlugin from "extract-text-webpack-plugin";
 import { join } from "path";
 import * as webpack from "webpack";
 
-export default function(env: string) {
+module.exports = function(env: string) {
   const PROD = env === "production";
 
   const plugins: webpack.Plugin[] = [
@@ -66,4 +66,5 @@ export default function(env: string) {
       ]
     }
   }
+  return config;
 }

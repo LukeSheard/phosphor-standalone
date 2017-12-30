@@ -30,5 +30,8 @@
     "ts-node": "^4.1.0",
     "typescript": "^2.6.2",
     "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "@phosphor/widgets": "^1.5.0"
   }
 }
