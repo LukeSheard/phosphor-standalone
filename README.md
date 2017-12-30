@@ -5,7 +5,7 @@ A standalone, browser compatible build of PhosphorJS.
 
 ## Usage
 
-Just load the bundle into the browser. It can then be used in conjunction with [Phosphor Custom Elements](//github.com/LukeSheard/phosphor-webcomponents) to display custom views. 
+Just load the bundle into the browser. It can then be used in conjunction with [Phosphor Custom Elements](//github.com/LukeSheard/phosphor-webcomponent) to display custom views. 
 
 ```html
 <html>
