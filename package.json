@@ -1,7 +1,7 @@
 {
   "name": "@lukesheard/phosphor-standalone",
   "version": "1.0.0",
-  "description": "",
+  "description": "A standalone build of PhosphorJS for use in the browser",
   "main": "index.js",
   "scripts": {
     "build": "yarn build:dev && yarn build:prod",
