@@ -1,5 +1,5 @@
 {
-  "name": "phosphor-standalone",
+  "name": "@lukesheard/phosphor-standalone",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
