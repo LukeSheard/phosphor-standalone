@@ -1,0 +1,5 @@
+.git
+.gitignore
+.travis.yml
+index.ts 
+webpack.config.ts 
