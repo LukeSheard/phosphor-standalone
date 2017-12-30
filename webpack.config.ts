@@ -19,10 +19,7 @@ module.exports = function(env: string) {
     context: __dirname,
     devtool: PROD ? false : "source-map",
     entry: {
-      phosphor: [
-        "@phosphor/widgets",
-        "@phosphor/widgets/style",
-      ]
+      phosphor: "./index.ts"
     },
     output: {
       filename: `[name]${PROD ? ".min" : ""}.js`,
