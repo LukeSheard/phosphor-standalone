@@ -33,8 +33,13 @@ export default function(env: string) {
     module: {
       rules: [
         {
-          test: /.tsx?$/,
-          loader: "ts-loader"
+          test: /.ts$/,
+          loader: "ts-loader",
+          options: {
+            compilerOptions: {
+              removeComments: PROD
+            }
+          }
         },
         {
           test: /\.css$/,
